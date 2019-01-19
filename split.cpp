@@ -46,7 +46,7 @@ vector<string> split(const string &s, const string &seperator){
 
 int main()
 {
-    string S = "aa bb cc; xx yy z-z; aa bb; aa bx cc";
+    string S = "test1;test2-test3;test4-test5;";
     vector<string> vStr;
     vStr = split(S, ";");
 
